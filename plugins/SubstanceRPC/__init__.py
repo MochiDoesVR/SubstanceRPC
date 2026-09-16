@@ -130,7 +130,7 @@ def update_rpc_noproject():
 	app_version = sp.application.version()
 
 	RPC.update(details = f'No Project Open',
-			   state = f'Jarvis, touch this man inappropriately.',
+			   state = 'Nothing to see here, yet.',
 			   large_image='app_icon',
 			   #small_image='sp_mode_paint',
 			   large_text=f'Substance Painter v{app_version} | Substance RPC v1.1.0',
